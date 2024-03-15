@@ -1,24 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header/Header';
+import EditarPerfil from './Components/Editar_perfil/EditarPerfil';
+import TelaPosLoginAluno from './Components/Tela_Pos_Login_Aluno/TelaPosLoginAluno';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     {/* <Header/>
+    <EditarPerfil/> */}
+    <TelaPosLoginAluno/>
+    </>
   );
 }
 

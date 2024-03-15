@@ -1,0 +1,18 @@
+.Editar{
+    display: flex;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.estudante{
+    width: 200px;
+    height: 200px;
+}
+
+.Right{
+    flex: 1;
+}
+
+.Left{
+    flex: 1;
+}
