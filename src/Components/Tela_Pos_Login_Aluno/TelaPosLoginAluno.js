@@ -1,20 +1,21 @@
 import React from "react";
-import Header from "../Header/Header";
-import Slider from "./Cards/Slider";
-
+import style from "./css/telaPosLogin.css"
 export default () => {
-    // Aqui você pode definir os dados para seus cards
-  const cards = [
-    { title: 'Card 14', description: 'Descrição do Card 1' },
-    { title: 'Card 2', description: 'Descrição do Card 2' },
-    { title: 'Card 3', description: 'Descrição do Card 3' },
-    // Adicione mais cards conforme necessário
-  ];
 
   return (
     <div className="App">
-      <h1>Meu Slider de Cards</h1>
-      <Slider cards={cards} />
+      <h1>Ultimas aulas postadas</h1>
+
+      {/*Subtitulo*/}
+      <div style={style.subtitulo} className="subtitulo">
+        <p>Matemática</p>
+        <p>Português</p>
+        <p>Ciências da Humanas </p>
+        <p>Ciências da Natureza</p>
+      </div>
+
+
+
     </div>
   );
 };
